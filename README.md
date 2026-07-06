@@ -1,3 +1,12 @@
+# Actividad 3: Componente Visual con JavaScript
+Instituto Tecnológico de Oaxaca
+Alumno: CASTELLANOS RIOS CARLOS EDUARDO
+Docente: MARTINEZ NIETO ADELINA
+Materia: Programación Web
+Hora: 10:00-13:00
+Actividad: Componente Visual con JS
+
+
 # Smart Mailbox Redirector
 
 Un componente visual e interactivo construido con JavaScript puro que ayuda al usuario a ir directamente a su bandeja de entrada después de registrarse, evitando que tenga que buscar su proveedor de correo manualmente.
