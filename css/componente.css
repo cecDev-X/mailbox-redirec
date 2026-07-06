@@ -1,0 +1,38 @@
+
+.smart-mail-card {
+    background-color: #ffffff;
+    border: 2px solid #cbd5e1; 
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    font-family: Arial, sans-serif;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.smart-mail-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.smart-mail-text {
+    color: #334155;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.smart-mail-btn {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%; 
+}
+
+.smart-mail-btn:hover {
+    opacity: 0.9;
+}
