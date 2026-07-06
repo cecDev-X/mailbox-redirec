@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mailbox Redirector</title>
+    <link rel="stylesheet" href="css/componente.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<body>
+
+    <div class="demo-container">
+        <h2>Simulacion de registro</h2>
+        <p>Ingresa un correo</p>
+        <input type="email" id="userEmail" value="eduardo@gmail.com">
+        <button class="simular" onclick="procesarRegistro()">Simular Registro</button>
+    </div>
+
+    <div id="contenedor-componente"></div>
+
+    <script src="js/componente.js"></script>
+    <script>
+        const smartMail = new SmartMailButton('contenedor-componente');
+
+        smartMail.init(document.getElementById('userEmail').value);
+
+        function procesarRegistro() {
+            const correo = document.getElementById('userEmail').value;
+            smartMail.init(correo);
+        }
+    </script>
+</body>
+
+</html>
